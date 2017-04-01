@@ -1,0 +1,12 @@
+<div style="margin-top:50px;" class="container">
+
+<form action="/write" method="POST">
+   <p style="font-size:65px; text-align:center" ><strong>신이 나를 만들 때</strong></p>
+    <center><%=image_tag "sin.jpg" %></center><br><br>
+  
+  <div class="form-group" style="background-color:blue;color:white;padding:5px;">
+   <!-- <left><label for="exampleInputname">이름을 입력하시오</label></left>-->
+   <input type="text" class="form-control" name="title" id="exampleInputname" placeholder="이름을 입력하시오"> <!--아무것도 넣지 않았을때 나오는 회색 글자-->
+  </div>
+  <button type="submit" class="btn btn-default"><%=image_tag "startbutton.png" %></button>
+</form>
